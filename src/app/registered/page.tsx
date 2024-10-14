@@ -4,7 +4,7 @@
 import UserMenu from "./user-menu";
 import Link from "next/link";
 import Footer from "../footer";
-import { useState } from "react";
+
 
 export default function Registered() {
   return (
