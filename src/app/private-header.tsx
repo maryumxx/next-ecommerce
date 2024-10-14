@@ -31,14 +31,22 @@ export default function PrivateHeader() {
                     Home
                 </p>
             </Link>
+            <Link href="/contact" passHref>
           <p className="hover:border-b-2 hover:border-red-500">Contact</p>
+          </Link>
+          <Link href="/about" passHref>
           <p className="hover:border-b-2 hover:border-red-500">About</p>
+          </Link>
           
 
           
         </div>
-        <div className="flex bg-gray-300 p-2 px-4 gap-x-8 text-gray-500 bg-opacity-25 text-sm items-center">
-          <p>What are you looking for?</p>
+        <div className="flex bg-gray-300 p-2 px-4 gap-x-8 text-gray-700 bg-opacity-25 text-sm items-center">
+          <input 
+          type="input"
+          placeholder='What are you looking for?'
+          className=' focus:outline-none w-52 p-2 bg-gray-100
+          ' />
           <img
             className="w-7 h-7"
             src="data:image/png;base64,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"
