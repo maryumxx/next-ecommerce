@@ -1275,7 +1275,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className="mt-52 ">
-              <div className="-mt-16 w-80 text-center text-lg p-3 bg-opacity-80 hidden group-hover:block bg-black text-white absolute">Add to Cart</div>z
+              <div className="-mt-16 w-80 text-center text-lg p-3 bg-opacity-80 hidden group-hover:block bg-black text-white absolute">Add to Cart</div>
                 <h4 className="text-black absolute -mt-2 font-semibold">
                   Quilted Satin Jacket
                 </h4>
