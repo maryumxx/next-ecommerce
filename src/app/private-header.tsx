@@ -1,6 +1,6 @@
 import Link from 'next/link';
 {/* eslint-disable-next-line react/no-unescaped-entities */}
-export default function Header() {
+export default function PrivateHeader() {
   return (
     <header className="">
       <div className="bg-black text-white flex items-center  justify-around">
@@ -33,11 +33,7 @@ export default function Header() {
             </Link>
           <p className="hover:border-b-2 hover:border-red-500">Contact</p>
           <p className="hover:border-b-2 hover:border-red-500">About</p>
-          <Link href="/signup">
-                <p className="hover:border-b-2 hover:border-red-500 cursor-pointer">
-                    Sign Up
-                </p>
-            </Link>
+          
 
           
         </div>
